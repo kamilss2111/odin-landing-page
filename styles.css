@@ -116,3 +116,25 @@ h2 {
     border: 3px solid #3882f6;
     border-radius: 10px;
 }
+
+/* quote */
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 500px;
+}
+
+.quote > p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+
+.quote > p:nth-of-type(2) {
+    align-self: flex-end;
+}
